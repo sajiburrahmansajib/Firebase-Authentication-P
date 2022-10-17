@@ -20,6 +20,7 @@ const Header = () => {
             <div className="navbar bg-neutral text-neutral-content">
                 <Link to='/' className="btn btn-ghost normal-case text-xl">Firebase-Authentication</Link>
                 <Link className="btn btn-ghost normal-case text-xl" to='/'>Home</Link>
+                <Link className="btn btn-ghost normal-case text-xl" to='/orders'>Orders</Link>
                 <Link className="btn btn-ghost normal-case text-xl" to='/login'>Log In</Link>
                 <Link className="btn btn-ghost normal-case text-xl" to='/register'>Register</Link>
                 {
